@@ -1,0 +1,120 @@
+body {
+    cursor: crosshair;
+    width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(60deg, #F93822, #FE5834, #D78475, #F7311B, #E1745B);
+	background-size: 500% 500%;
+	-webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+	animation: Gradient 20s ease infinite;
+}
+
+
+
+a:link {
+    color:whitesmoke;
+    text-decoration: none;
+    }
+    a:visited {
+    color:whitesmoke;
+    text-decoration: none;
+    }
+    a:hover {
+    color:blue;
+    text-decoration: underline;
+    
+    }
+  
+    ul {
+        list-style-type:none;
+        padding-left: 1em;
+      }
+    
+
+    .textos{
+
+        position: absolute;
+        /*bottom: 50%;*/
+        list-style-type:none;
+        top:   10.33%;
+        right: 10%;
+        text-align: right;
+        float: right;
+        letter-spacing: 3px;
+        line-height: 1.5;
+        font-size: 0.7vw;
+        font-family: 'Manrope';
+        color: black;
+        /*width: 33.33%;
+        color: white;
+        padding-top:  1px;
+        padding-left:  3px;
+        padding-right:  3px;*/
+
+        }
+        
+        
+    
+.footer {
+
+    /*position: inherit;*/
+    float: right;
+    /*outline: 2px solid;*/
+    padding-left: 10em;
+    /*padding-right: 10em;*/
+    color: whitesmoke;
+    word-spacing: 10px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.5vw;
+    /*width: 33.33%;
+    color: white;
+    padding-top:  1px;
+    padding-left:  3px;
+    padding-right:  3px;*/
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    }
+    
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+    
+
